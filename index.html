@@ -366,6 +366,12 @@
     .project-tag.python { border-color: #3b7fcf44; color: #3b7fcf; background: #3b7fcf11; }
     .project-tag.unity  { border-color: #ffffff33; color: #aaa; background: #ffffff08; }
     .project-tag.ai     { border-color: #3df5b055; color: var(--accent2); background: #3df5b011; }
+    /* New Tags */
+    .project-tag.java     { border-color: #f8982055; color: #f89820; background: #f8982011; }
+    .project-tag.js       { border-color: #f7df1e55; color: #f7df1e; background: #f7df1e11; }
+    .project-tag.research { border-color: #b18deb55; color: #b18deb; background: #6f42c111; }
+    .project-tag.design   { border-color: #e83e8c55; color: #e83e8c; background: #e83e8c11; }
+
 
     .project-desc {
       font-family: var(--font-mono);
@@ -539,7 +545,6 @@
 </head>
 <body>
 
-  <!-- NAV -->
   <nav>
     <div class="nav-logo">KP.</div>
     <ul class="nav-links">
@@ -549,7 +554,6 @@
     </ul>
   </nav>
 
-  <!-- HERO -->
   <section id="hero">
     <div class="hero-grid"></div>
     <div class="hero-blob"></div>
@@ -570,7 +574,6 @@
     </div>
   </section>
 
-  <!-- ABOUT -->
   <section id="about">
     <div class="about-grid">
       <div>
@@ -613,7 +616,6 @@
     </div>
   </section>
 
-  <!-- PROJECTS -->
   <section id="projects">
     <div class="projects-inner">
       <p class="section-label">// 02 — work</p>
@@ -684,11 +686,50 @@
           <a href="https://hwdsbonca-my.sharepoint.com/:u:/g/personal/kpatel0870_hwdsb_on_ca/IQCS1nzyGz_cTZDoTaMYQm8IAS5BIFJ2S0JtkGWacOIuekU?e=iKeybC" class="project-link" target="_blank">Download ↓</a>
         </div>
 
+        <div class="project-card fade-in">
+          <span class="project-number">09</span>
+          <h3 class="project-name">Java Snake AI</h3>
+          <span class="project-tag java">Java · AI</span>
+          <p class="project-desc">Another iteration of the Snake AI, this time built entirely in Java. This project further explores machine learning algorithms and object-oriented programming to create an autonomous, self-improving agent.</p>
+          <a href="#" class="project-link" target="_blank">Download ↓</a>
+        </div>
+
+        <div class="project-card fade-in">
+          <span class="project-number">10</span>
+          <h3 class="project-name">JavaScript Fundamentals</h3>
+          <span class="project-tag js">JavaScript</span>
+          <p class="project-desc">A deep dive into web interactivity through Codecademy. Covered the essential building blocks including variables, data types, conditionals, loops, objects, and functions to set the stage for modern full-stack web development.</p>
+          <a href="#" class="project-link" target="_blank">View Presentation ↓</a>
+        </div>
+
+        <div class="project-card fade-in">
+          <span class="project-number">11</span>
+          <h3 class="project-name">Architecture & AI Careers</h3>
+          <span class="project-tag research">Research · Presentation</span>
+          <p class="project-desc">An exploratory presentation on how AI disruption is transforming the fields of Architecture and Urban Planning. Discusses generative design, city traffic simulation, and the long-term career impacts for future professionals.</p>
+          <a href="#" class="project-link" target="_blank">View Presentation ↓</a>
+        </div>
+
+        <div class="project-card fade-in">
+          <span class="project-number">12</span>
+          <h3 class="project-name">Game System Data Flow</h3>
+          <span class="project-tag design">System Design</span>
+          <p class="project-desc">A comprehensive set of data flow charts detailing the internal architecture of a classic 2D platformer. Maps out complex systems like physics collisions, enemy AI states, and core hardware interactions within the Sega Genesis system constraints.</p>
+          <a href="#" class="project-link" target="_blank">View Diagrams ↓</a>
+        </div>
+
+        <div class="project-card fade-in">
+          <span class="project-number">13</span>
+          <h3 class="project-name">Room 2022 Recreation</h3>
+          <span class="project-tag unity">Unity · 3D Environment</span>
+          <p class="project-desc">A detailed 3D recreation of my computer science classroom (Room 2022) built in Unity. Focused on environment modeling, accurate spatial layout, texturing, lighting, and creating a realistic, navigable digital space.</p>
+          <a href="#" class="project-link" target="_blank">Download ↓</a>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
   <section id="contact">
     <p class="section-label">// 03 — contact</p>
     <h2 class="section-title fade-in">Get In Touch</h2>
@@ -730,7 +771,6 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer>
     <p>© 2025 <span>Krish Patel</span>. Built from scratch.</p>
     <p>Hamilton, Ontario 🇨🇦</p>
